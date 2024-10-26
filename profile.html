@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile - Hackers Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Profile</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="missions.html">Missions</a>
+            <a href="chatroom.html">Chatroom</a>
+            <a href="leaderboard.html">Leaderboard</a>
+        </nav>
+    </header>
+
+    <section class="xp-section">
+        <h2>Your XP & Level</h2>
+        <p id="xp-display">XP: 0</p>
+        <p id="level-display">Level: 1</p>
+    </section>
+
+    <script src="firebase_config.js"></script>
+    <script src="user_system.js"></script>
+    <script>loadUserXP();</script>
+</body>
+</html>

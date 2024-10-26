@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatroom - Hackers Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chatroom</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="missions.html">Missions</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <section class="chat-section">
+        <div id="chat-box" class="chat-box"></div>
+        <div class="chat-input-container">
+            <input type="text" id="chat-input" placeholder="Type your message..." required>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </section>
+
+    <script src="chat.js"></script>
+</body>
+</html>
